@@ -6,10 +6,11 @@ date:   2017-07-10 21:00:20 +0200
 categories: java prng random-seed
 ---
 
-![Dandelions](/assets/dandelions.jpg)
 
 > Random number generators should not be chosen at random. 
 >     — Donald Knuth
+
+![Dandelions](/assets/dandelions.jpg)
 
 While implementing the _Jenetics_ library, I faced the problem of creating proper seed values for the `Random` engines I used. The usual way for doing this, is to take the current time stamp.
 
