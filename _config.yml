@@ -1,28 +1,7 @@
-
 email: franz.wilhelmstoetter@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  On this site I will write mainly about the work on the my Genetic algorithm,
-  Genetic programming library, Jenetics.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jenetics.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jeneticsga
-github_username:  jenetics
 
 # Build settings
 markdown: kramdown
-theme: minima
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -41,9 +20,9 @@ texture:
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    twitter: jeneticsga
+    github:  jenetics
+    linkedIn: in/franz-wilhelmstötter-949173b
     rss: rss
 
 
@@ -58,3 +37,5 @@ texture:
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+remote_theme: thelehhman/texture
