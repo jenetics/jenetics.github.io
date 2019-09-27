@@ -1,21 +1,9 @@
-email: franz.wilhelmstoetter@gmail.com
-
-# Build settings
-markdown: kramdown
-show_excerpts: true # set to true to show excerpts on the homepage
-
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-sass:
-  sass_dir: _sass
-
-permalink: /posts/:title/
 texture:
   title: Franz Wilhelmstötter
   tagline: Developer
   date_format: "%b %-d, %Y"
   style: black
-  showNav: false
+  showNav: true
   showPicker: false
 
   # generate social links in footer
