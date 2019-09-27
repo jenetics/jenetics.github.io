@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Creating random seeds with Java"
+description: "How to create better seeds for PRNGs"
 date:   2017-07-10 21:00:20 +0200
-categories: java random seed
+categories: java prng random-seed
 ---
 
 ![Dandelions](/assets/dandelions.jpg)
