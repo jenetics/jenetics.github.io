@@ -7,8 +7,7 @@ categories: java prng random-seed
 ---
 
 
-> Random number generators should not be chosen at random. 
->     — Donald Knuth
+> Random number generators should not be chosen at random. - _Donald Knuth_
 
 ![Dandelions](/assets/dandelions.jpg)
 
