@@ -13,7 +13,7 @@ texture:
     linkedIn: in/franz-wilhelmstötter-949173b
     rss: rss
 
-
+base_url: ""
 show_excerpts: true
 
 plugins:
