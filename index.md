@@ -1,2 +1,3 @@
-## Welcome to Jenetics' Blog
-
+---
+layout: home
+---
