@@ -33,7 +33,7 @@ public static long seed() {
 This time, the _dieharder_ returned 28 passed and 86 failed tests. Looks better than the timestamp seed, but 86 failing tests are still not very satisfying. After additional experimentation, I tried to combine the timestamp and the object seeding. The rational behind this was, that the seed shouldn’t rely on a single entropy source.
 
 ```java
-public static long seed(final long base) {
+public static long seed() {
     return mix(System.nanoTime(), objectHashSeed());
 }
 
