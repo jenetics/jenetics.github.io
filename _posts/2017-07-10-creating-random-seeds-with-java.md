@@ -34,7 +34,7 @@ This time, the _dieharder_ returned 28 passed and 86 failed tests. Looks better 
 
 ```java
 public static long seed(final long base) {
-    return mix(base, objectHashSeed());
+    return mix(System.nanoTime(), objectHashSeed());
 }
 
 private static long mix(final long a, final long b) {
